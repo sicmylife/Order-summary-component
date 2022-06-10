@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;  
+
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+
+.card{
+
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 100%; */
+  width:350px;
+
+  overflow: hidden;
+  /* margin: 50px; */
+  
+}
+
+ img {
+    border-radius: 20px 20px 0px 0px;
+    height: 185px;
+    width: 350px;
+
+ }
+
+ h1 {
+    padding-top: 20px;
+ }
+
+ .uno  {
+    text-align: center;
+    width: 300px;
+    color:rgb(118, 118, 114);
+margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 30px;
+ }
+
+ .plan {
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    width: 300px;
+ }
+
+
+.plan p {
+    margin-bottom: 30px;
+}
+ .anual{
+    line-height: 10px;}
+
+span {
+    font-weight: 700;
+}
+
+
+ .plan p a {
+    font-weight: 700;
+ }
+
+ button {
+    padding: 15px 80px;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 8px hsl(225, 100%, 94%);
+    box-shadow: 0px 10px 8px hsl(218, 14%, 85%);
+    font-weight: 700;
+ }
+
+
+
+.plan svg {
+
+    width: 150px;
+    height: 50px;
+    
+}
+
+.change {
+
+    
+}
+
+.link-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.attribution { font-size: 11px; text-align: center;
+margin-top: 40px;}
+.attribution a { color: hsl(228, 45%, 44%); }
